@@ -42,34 +42,46 @@ body {
     display: flex;
     flex-direction: row; /* Coloca o vídeo ao lado do texto */
     align-items: flex-start; /* Alinha o conteúdo no topo */
-    gap: 20px; /* Espaço entre o texto e o vídeo */
+    gap: 15px; /* Espaço entre o texto e o vídeo */
 }
 
-.h1 {
+.section-trailer {
+    margin-top: 120px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+.box-info {
+    display: flex;
+    flex-direction: row; /* Coloca o vídeo ao lado do texto */
+    align-items: flex-start; /* Alinha o conteúdo no topo */
+    gap: 15px; /* Espaço entre o texto e o vídeo */
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column; /* Coloca o título acima do parágrafo */
+    align-items: center; /* Centraliza o texto horizontalmente */
+    gap: 10px; /* Ajusta a distância entre h1 e o parágrafo */
+    margin-top: 30px;
 }
 
 .h1 h1 {
     color: rgb(255, 255, 255);
     font-size: 65px;
-    margin-left: 160px;
     font-family: "Domine", serif;
     font-weight: 300;
+    margin: 0; /* Remove a margem extra */
 }
 
 .box-p {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 80px;
+    margin: 0; /* Remove a margem extra */
 }
 
 .box-p p {
     width: 490px;
     color: rgba(255, 255, 255, 0.904);
-    font-size: 19px;
+    font-size: 22px;
     font-family: "Nunito Sans", sans-serif;
     text-align: center;
     font-weight: 200;
